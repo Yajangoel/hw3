@@ -1,0 +1,26 @@
+HeapTest.ConstructionDestruction 1 1.5815
+HeapTest.InitiallyEmpty 1 1.71373
+HeapTest.EmptyTopException 1 1.63394
+HeapTest.EmptyPopException 1 1.62857
+HeapTest.SingleItemNonempty 1 1.61831
+HeapTest.SingleItemPush 1 1.61555
+HeapTest.SingleItemPushPop 1 1.59317
+HeapTest.TwoElementPush_LowPriFirst 1 1.60065
+HeapTest.TwoElementPush_HighPriFirst 1 1.64878
+HeapTest.Duplicates 1 1.58174
+HeapTest.NegativeElements 1 1.57777
+HeapTest.ThreeElementPush_0_5_10 1 1.61473
+HeapTest.ThreeElementPush_0_10_5 1 1.71031
+HeapTest.ThreeElementPush_5_0_10 1 1.9018
+HeapTest.ThreeElementPush_5_10_0 1 1.72186
+HeapTest.ThreeElementPush_10_0_5 1 1.60297
+HeapTest.ThreeElementPush_10_5_0 1 1.62992
+HeapTest.GreaterComparator 1 1.59593
+HeapTest.StringStorage 1 1.64781
+HeapTest.FiveElementPush_TrinaryHeap 1 1.60916
+HeapTest.SixElementPush_QuaternaryHeap 1 1.75602
+HeapStress.50x50RandomElements_BinaryHeap 1 1.89028
+HeapStress.50x50RandomElements_QuaternaryHeap 1 1.84449
+HeapStress.50x50RandomElements_DodecenaryHeap 1 1.82201
+HeapStress.2x2000RandomElements_Binary 1 1.87062
+---

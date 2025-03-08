@@ -83,8 +83,20 @@ Node* llfilter(Node* head, Comp pred)
     //*********************************************
     // Provide your implementation below
     //*********************************************
-
-
+  
+  if(!head){
+    return NULL;
+  }
+  if(pred(head -> val)){
+    Node* deleted = head;
+    head = head -> next;
+    delete deleted;
+    return llfilter(head, pred);
+  }
+  else{
+    head -> next = llfilter(head -> next, pred);
+    return head;
+  }
 }
 
 #endif

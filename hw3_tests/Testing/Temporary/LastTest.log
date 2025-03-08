@@ -1,0 +1,2053 @@
+Start testing: Mar 08 05:02 UTC
+----------------------------------------------------------
+1/50 Testing: Pivot.Empty
+1/50 Test: Pivot.Empty
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "--error-exitcode=113" "/home/codio/workspace/hw3/hw3_tests/llrec_tests/llrec_tests" "--gtest_filter=Pivot.Empty"
+Directory: /home/codio/workspace/hw3/hw3_tests/llrec_tests
+"Pivot.Empty" start time: Mar 08 05:02 UTC
+Output:
+----------------------------------------------------------
+==450== Memcheck, a memory error detector
+==450== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==450== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==450== Command: /home/codio/workspace/hw3/hw3_tests/llrec_tests/llrec_tests --gtest_filter=Pivot.Empty
+==450== 
+Running main() from /home/codio/googletest/googletest/src/gtest_main.cc
+Note: Google Test filter = Pivot.Empty
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Pivot
+[ RUN      ] Pivot.Empty
+[       OK ] Pivot.Empty (20 ms)
+[----------] 1 test from Pivot (30 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (84 ms total)
+[  PASSED  ] 1 test.
+==450== 
+==450== HEAP SUMMARY:
+==450==     in use at exit: 0 bytes in 0 blocks
+==450==   total heap usage: 404 allocs, 404 frees, 133,083 bytes allocated
+==450== 
+==450== All heap blocks were freed -- no leaks are possible
+==450== 
+==450== For counts of detected and suppressed errors, rerun with: -v
+==450== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   1.57 sec
+----------------------------------------------------------
+Test Passed.
+"Pivot.Empty" end time: Mar 08 05:02 UTC
+"Pivot.Empty" time elapsed: 00:00:01
+----------------------------------------------------------
+
+2/50 Testing: Pivot.Size1SmallEmpty
+2/50 Test: Pivot.Size1SmallEmpty
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "--error-exitcode=113" "/home/codio/workspace/hw3/hw3_tests/llrec_tests/llrec_tests" "--gtest_filter=Pivot.Size1SmallEmpty"
+Directory: /home/codio/workspace/hw3/hw3_tests/llrec_tests
+"Pivot.Size1SmallEmpty" start time: Mar 08 05:02 UTC
+Output:
+----------------------------------------------------------
+==451== Memcheck, a memory error detector
+==451== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==451== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==451== Command: /home/codio/workspace/hw3/hw3_tests/llrec_tests/llrec_tests --gtest_filter=Pivot.Size1SmallEmpty
+==451== 
+Running main() from /home/codio/googletest/googletest/src/gtest_main.cc
+Note: Google Test filter = Pivot.Size1SmallEmpty
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Pivot
+[ RUN      ] Pivot.Size1SmallEmpty
+[       OK ] Pivot.Size1SmallEmpty (33 ms)
+[----------] 1 test from Pivot (43 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (96 ms total)
+[  PASSED  ] 1 test.
+==451== 
+==451== HEAP SUMMARY:
+==451==     in use at exit: 0 bytes in 0 blocks
+==451==   total heap usage: 413 allocs, 413 frees, 133,328 bytes allocated
+==451== 
+==451== All heap blocks were freed -- no leaks are possible
+==451== 
+==451== For counts of detected and suppressed errors, rerun with: -v
+==451== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   1.57 sec
+----------------------------------------------------------
+Test Passed.
+"Pivot.Size1SmallEmpty" end time: Mar 08 05:02 UTC
+"Pivot.Size1SmallEmpty" time elapsed: 00:00:01
+----------------------------------------------------------
+
+3/50 Testing: Pivot.Size1LargeEmpty
+3/50 Test: Pivot.Size1LargeEmpty
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "--error-exitcode=113" "/home/codio/workspace/hw3/hw3_tests/llrec_tests/llrec_tests" "--gtest_filter=Pivot.Size1LargeEmpty"
+Directory: /home/codio/workspace/hw3/hw3_tests/llrec_tests
+"Pivot.Size1LargeEmpty" start time: Mar 08 05:02 UTC
+Output:
+----------------------------------------------------------
+==452== Memcheck, a memory error detector
+==452== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==452== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==452== Command: /home/codio/workspace/hw3/hw3_tests/llrec_tests/llrec_tests --gtest_filter=Pivot.Size1LargeEmpty
+==452== 
+Running main() from /home/codio/googletest/googletest/src/gtest_main.cc
+Note: Google Test filter = Pivot.Size1LargeEmpty
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Pivot
+[ RUN      ] Pivot.Size1LargeEmpty
+[       OK ] Pivot.Size1LargeEmpty (34 ms)
+[----------] 1 test from Pivot (44 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (101 ms total)
+[  PASSED  ] 1 test.
+==452== 
+==452== HEAP SUMMARY:
+==452==     in use at exit: 0 bytes in 0 blocks
+==452==   total heap usage: 413 allocs, 413 frees, 133,328 bytes allocated
+==452== 
+==452== All heap blocks were freed -- no leaks are possible
+==452== 
+==452== For counts of detected and suppressed errors, rerun with: -v
+==452== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   1.58 sec
+----------------------------------------------------------
+Test Passed.
+"Pivot.Size1LargeEmpty" end time: Mar 08 05:03 UTC
+"Pivot.Size1LargeEmpty" time elapsed: 00:00:01
+----------------------------------------------------------
+
+4/50 Testing: Pivot.Size2SmallLarge
+4/50 Test: Pivot.Size2SmallLarge
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "--error-exitcode=113" "/home/codio/workspace/hw3/hw3_tests/llrec_tests/llrec_tests" "--gtest_filter=Pivot.Size2SmallLarge"
+Directory: /home/codio/workspace/hw3/hw3_tests/llrec_tests
+"Pivot.Size2SmallLarge" start time: Mar 08 05:03 UTC
+Output:
+----------------------------------------------------------
+==453== Memcheck, a memory error detector
+==453== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==453== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==453== Command: /home/codio/workspace/hw3/hw3_tests/llrec_tests/llrec_tests --gtest_filter=Pivot.Size2SmallLarge
+==453== 
+Running main() from /home/codio/googletest/googletest/src/gtest_main.cc
+Note: Google Test filter = Pivot.Size2SmallLarge
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Pivot
+[ RUN      ] Pivot.Size2SmallLarge
+[       OK ] Pivot.Size2SmallLarge (36 ms)
+[----------] 1 test from Pivot (46 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (104 ms total)
+[  PASSED  ] 1 test.
+==453== 
+==453== HEAP SUMMARY:
+==453==     in use at exit: 0 bytes in 0 blocks
+==453==   total heap usage: 415 allocs, 415 frees, 133,352 bytes allocated
+==453== 
+==453== All heap blocks were freed -- no leaks are possible
+==453== 
+==453== For counts of detected and suppressed errors, rerun with: -v
+==453== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   1.69 sec
+----------------------------------------------------------
+Test Passed.
+"Pivot.Size2SmallLarge" end time: Mar 08 05:03 UTC
+"Pivot.Size2SmallLarge" time elapsed: 00:00:01
+----------------------------------------------------------
+
+5/50 Testing: Pivot.Size2LargeSmall
+5/50 Test: Pivot.Size2LargeSmall
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "--error-exitcode=113" "/home/codio/workspace/hw3/hw3_tests/llrec_tests/llrec_tests" "--gtest_filter=Pivot.Size2LargeSmall"
+Directory: /home/codio/workspace/hw3/hw3_tests/llrec_tests
+"Pivot.Size2LargeSmall" start time: Mar 08 05:03 UTC
+Output:
+----------------------------------------------------------
+==454== Memcheck, a memory error detector
+==454== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==454== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==454== Command: /home/codio/workspace/hw3/hw3_tests/llrec_tests/llrec_tests --gtest_filter=Pivot.Size2LargeSmall
+==454== 
+Running main() from /home/codio/googletest/googletest/src/gtest_main.cc
+Note: Google Test filter = Pivot.Size2LargeSmall
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Pivot
+[ RUN      ] Pivot.Size2LargeSmall
+[       OK ] Pivot.Size2LargeSmall (33 ms)
+[----------] 1 test from Pivot (43 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (100 ms total)
+[  PASSED  ] 1 test.
+==454== 
+==454== HEAP SUMMARY:
+==454==     in use at exit: 0 bytes in 0 blocks
+==454==   total heap usage: 415 allocs, 415 frees, 133,352 bytes allocated
+==454== 
+==454== All heap blocks were freed -- no leaks are possible
+==454== 
+==454== For counts of detected and suppressed errors, rerun with: -v
+==454== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   1.63 sec
+----------------------------------------------------------
+Test Passed.
+"Pivot.Size2LargeSmall" end time: Mar 08 05:03 UTC
+"Pivot.Size2LargeSmall" time elapsed: 00:00:01
+----------------------------------------------------------
+
+6/50 Testing: Pivot.Size3LargeSmallLarge
+6/50 Test: Pivot.Size3LargeSmallLarge
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "--error-exitcode=113" "/home/codio/workspace/hw3/hw3_tests/llrec_tests/llrec_tests" "--gtest_filter=Pivot.Size3LargeSmallLarge"
+Directory: /home/codio/workspace/hw3/hw3_tests/llrec_tests
+"Pivot.Size3LargeSmallLarge" start time: Mar 08 05:03 UTC
+Output:
+----------------------------------------------------------
+==455== Memcheck, a memory error detector
+==455== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==455== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==455== Command: /home/codio/workspace/hw3/hw3_tests/llrec_tests/llrec_tests --gtest_filter=Pivot.Size3LargeSmallLarge
+==455== 
+Running main() from /home/codio/googletest/googletest/src/gtest_main.cc
+Note: Google Test filter = Pivot.Size3LargeSmallLarge
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Pivot
+[ RUN      ] Pivot.Size3LargeSmallLarge
+[       OK ] Pivot.Size3LargeSmallLarge (33 ms)
+[----------] 1 test from Pivot (43 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (97 ms total)
+[  PASSED  ] 1 test.
+==455== 
+==455== HEAP SUMMARY:
+==455==     in use at exit: 0 bytes in 0 blocks
+==455==   total heap usage: 416 allocs, 416 frees, 133,426 bytes allocated
+==455== 
+==455== All heap blocks were freed -- no leaks are possible
+==455== 
+==455== For counts of detected and suppressed errors, rerun with: -v
+==455== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   1.60 sec
+----------------------------------------------------------
+Test Passed.
+"Pivot.Size3LargeSmallLarge" end time: Mar 08 05:03 UTC
+"Pivot.Size3LargeSmallLarge" time elapsed: 00:00:01
+----------------------------------------------------------
+
+7/50 Testing: Pivot.Size3SmallLargeSmall
+7/50 Test: Pivot.Size3SmallLargeSmall
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "--error-exitcode=113" "/home/codio/workspace/hw3/hw3_tests/llrec_tests/llrec_tests" "--gtest_filter=Pivot.Size3SmallLargeSmall"
+Directory: /home/codio/workspace/hw3/hw3_tests/llrec_tests
+"Pivot.Size3SmallLargeSmall" start time: Mar 08 05:03 UTC
+Output:
+----------------------------------------------------------
+==456== Memcheck, a memory error detector
+==456== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==456== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==456== Command: /home/codio/workspace/hw3/hw3_tests/llrec_tests/llrec_tests --gtest_filter=Pivot.Size3SmallLargeSmall
+==456== 
+Running main() from /home/codio/googletest/googletest/src/gtest_main.cc
+Note: Google Test filter = Pivot.Size3SmallLargeSmall
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Pivot
+[ RUN      ] Pivot.Size3SmallLargeSmall
+[       OK ] Pivot.Size3SmallLargeSmall (34 ms)
+[----------] 1 test from Pivot (44 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (99 ms total)
+[  PASSED  ] 1 test.
+==456== 
+==456== HEAP SUMMARY:
+==456==     in use at exit: 0 bytes in 0 blocks
+==456==   total heap usage: 416 allocs, 416 frees, 133,426 bytes allocated
+==456== 
+==456== All heap blocks were freed -- no leaks are possible
+==456== 
+==456== For counts of detected and suppressed errors, rerun with: -v
+==456== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   1.61 sec
+----------------------------------------------------------
+Test Passed.
+"Pivot.Size3SmallLargeSmall" end time: Mar 08 05:03 UTC
+"Pivot.Size3SmallLargeSmall" time elapsed: 00:00:01
+----------------------------------------------------------
+
+8/50 Testing: Pivot.Size3LargeLargeSmall
+8/50 Test: Pivot.Size3LargeLargeSmall
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "--error-exitcode=113" "/home/codio/workspace/hw3/hw3_tests/llrec_tests/llrec_tests" "--gtest_filter=Pivot.Size3LargeLargeSmall"
+Directory: /home/codio/workspace/hw3/hw3_tests/llrec_tests
+"Pivot.Size3LargeLargeSmall" start time: Mar 08 05:03 UTC
+Output:
+----------------------------------------------------------
+==457== Memcheck, a memory error detector
+==457== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==457== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==457== Command: /home/codio/workspace/hw3/hw3_tests/llrec_tests/llrec_tests --gtest_filter=Pivot.Size3LargeLargeSmall
+==457== 
+Running main() from /home/codio/googletest/googletest/src/gtest_main.cc
+Note: Google Test filter = Pivot.Size3LargeLargeSmall
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Pivot
+[ RUN      ] Pivot.Size3LargeLargeSmall
+[       OK ] Pivot.Size3LargeLargeSmall (34 ms)
+[----------] 1 test from Pivot (43 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (98 ms total)
+[  PASSED  ] 1 test.
+==457== 
+==457== HEAP SUMMARY:
+==457==     in use at exit: 0 bytes in 0 blocks
+==457==   total heap usage: 416 allocs, 416 frees, 133,426 bytes allocated
+==457== 
+==457== All heap blocks were freed -- no leaks are possible
+==457== 
+==457== For counts of detected and suppressed errors, rerun with: -v
+==457== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   1.60 sec
+----------------------------------------------------------
+Test Passed.
+"Pivot.Size3LargeLargeSmall" end time: Mar 08 05:03 UTC
+"Pivot.Size3LargeLargeSmall" time elapsed: 00:00:01
+----------------------------------------------------------
+
+9/50 Testing: Pivot.Size6SmallThenLarge
+9/50 Test: Pivot.Size6SmallThenLarge
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "--error-exitcode=113" "/home/codio/workspace/hw3/hw3_tests/llrec_tests/llrec_tests" "--gtest_filter=Pivot.Size6SmallThenLarge"
+Directory: /home/codio/workspace/hw3/hw3_tests/llrec_tests
+"Pivot.Size6SmallThenLarge" start time: Mar 08 05:03 UTC
+Output:
+----------------------------------------------------------
+==458== Memcheck, a memory error detector
+==458== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==458== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==458== Command: /home/codio/workspace/hw3/hw3_tests/llrec_tests/llrec_tests --gtest_filter=Pivot.Size6SmallThenLarge
+==458== 
+Running main() from /home/codio/googletest/googletest/src/gtest_main.cc
+Note: Google Test filter = Pivot.Size6SmallThenLarge
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Pivot
+[ RUN      ] Pivot.Size6SmallThenLarge
+[       OK ] Pivot.Size6SmallThenLarge (33 ms)
+[----------] 1 test from Pivot (43 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (99 ms total)
+[  PASSED  ] 1 test.
+==458== 
+==458== HEAP SUMMARY:
+==458==     in use at exit: 0 bytes in 0 blocks
+==458==   total heap usage: 419 allocs, 419 frees, 133,488 bytes allocated
+==458== 
+==458== All heap blocks were freed -- no leaks are possible
+==458== 
+==458== For counts of detected and suppressed errors, rerun with: -v
+==458== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   1.58 sec
+----------------------------------------------------------
+Test Passed.
+"Pivot.Size6SmallThenLarge" end time: Mar 08 05:03 UTC
+"Pivot.Size6SmallThenLarge" time elapsed: 00:00:01
+----------------------------------------------------------
+
+10/50 Testing: Pivot.Size6LargeThenSmall
+10/50 Test: Pivot.Size6LargeThenSmall
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "--error-exitcode=113" "/home/codio/workspace/hw3/hw3_tests/llrec_tests/llrec_tests" "--gtest_filter=Pivot.Size6LargeThenSmall"
+Directory: /home/codio/workspace/hw3/hw3_tests/llrec_tests
+"Pivot.Size6LargeThenSmall" start time: Mar 08 05:03 UTC
+Output:
+----------------------------------------------------------
+==459== Memcheck, a memory error detector
+==459== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==459== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==459== Command: /home/codio/workspace/hw3/hw3_tests/llrec_tests/llrec_tests --gtest_filter=Pivot.Size6LargeThenSmall
+==459== 
+Running main() from /home/codio/googletest/googletest/src/gtest_main.cc
+Note: Google Test filter = Pivot.Size6LargeThenSmall
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Pivot
+[ RUN      ] Pivot.Size6LargeThenSmall
+[       OK ] Pivot.Size6LargeThenSmall (33 ms)
+[----------] 1 test from Pivot (43 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (99 ms total)
+[  PASSED  ] 1 test.
+==459== 
+==459== HEAP SUMMARY:
+==459==     in use at exit: 0 bytes in 0 blocks
+==459==   total heap usage: 419 allocs, 419 frees, 133,488 bytes allocated
+==459== 
+==459== All heap blocks were freed -- no leaks are possible
+==459== 
+==459== For counts of detected and suppressed errors, rerun with: -v
+==459== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   1.59 sec
+----------------------------------------------------------
+Test Passed.
+"Pivot.Size6LargeThenSmall" end time: Mar 08 05:03 UTC
+"Pivot.Size6LargeThenSmall" time elapsed: 00:00:01
+----------------------------------------------------------
+
+11/50 Testing: Pivot.Nominal
+11/50 Test: Pivot.Nominal
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "--error-exitcode=113" "/home/codio/workspace/hw3/hw3_tests/llrec_tests/llrec_tests" "--gtest_filter=Pivot.Nominal"
+Directory: /home/codio/workspace/hw3/hw3_tests/llrec_tests
+"Pivot.Nominal" start time: Mar 08 05:03 UTC
+Output:
+----------------------------------------------------------
+==460== Memcheck, a memory error detector
+==460== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==460== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==460== Command: /home/codio/workspace/hw3/hw3_tests/llrec_tests/llrec_tests --gtest_filter=Pivot.Nominal
+==460== 
+Running main() from /home/codio/googletest/googletest/src/gtest_main.cc
+Note: Google Test filter = Pivot.Nominal
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Pivot
+[ RUN      ] Pivot.Nominal
+[       OK ] Pivot.Nominal (33 ms)
+[----------] 1 test from Pivot (43 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (99 ms total)
+[  PASSED  ] 1 test.
+==460== 
+==460== HEAP SUMMARY:
+==460==     in use at exit: 0 bytes in 0 blocks
+==460==   total heap usage: 411 allocs, 411 frees, 133,189 bytes allocated
+==460== 
+==460== All heap blocks were freed -- no leaks are possible
+==460== 
+==460== For counts of detected and suppressed errors, rerun with: -v
+==460== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   1.60 sec
+----------------------------------------------------------
+Test Passed.
+"Pivot.Nominal" end time: Mar 08 05:03 UTC
+"Pivot.Nominal" time elapsed: 00:00:01
+----------------------------------------------------------
+
+12/50 Testing: Pivot.SameValues
+12/50 Test: Pivot.SameValues
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "--error-exitcode=113" "/home/codio/workspace/hw3/hw3_tests/llrec_tests/llrec_tests" "--gtest_filter=Pivot.SameValues"
+Directory: /home/codio/workspace/hw3/hw3_tests/llrec_tests
+"Pivot.SameValues" start time: Mar 08 05:03 UTC
+Output:
+----------------------------------------------------------
+==461== Memcheck, a memory error detector
+==461== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==461== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==461== Command: /home/codio/workspace/hw3/hw3_tests/llrec_tests/llrec_tests --gtest_filter=Pivot.SameValues
+==461== 
+Running main() from /home/codio/googletest/googletest/src/gtest_main.cc
+Note: Google Test filter = Pivot.SameValues
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Pivot
+[ RUN      ] Pivot.SameValues
+[       OK ] Pivot.SameValues (33 ms)
+[----------] 1 test from Pivot (43 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (97 ms total)
+[  PASSED  ] 1 test.
+==461== 
+==461== HEAP SUMMARY:
+==461==     in use at exit: 0 bytes in 0 blocks
+==461==   total heap usage: 416 allocs, 416 frees, 133,350 bytes allocated
+==461== 
+==461== All heap blocks were freed -- no leaks are possible
+==461== 
+==461== For counts of detected and suppressed errors, rerun with: -v
+==461== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   1.58 sec
+----------------------------------------------------------
+Test Passed.
+"Pivot.SameValues" end time: Mar 08 05:03 UTC
+"Pivot.SameValues" time elapsed: 00:00:01
+----------------------------------------------------------
+
+13/50 Testing: Pivot.NoCopySameNodeCheck
+13/50 Test: Pivot.NoCopySameNodeCheck
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "--error-exitcode=113" "/home/codio/workspace/hw3/hw3_tests/llrec_tests/llrec_tests" "--gtest_filter=Pivot.NoCopySameNodeCheck"
+Directory: /home/codio/workspace/hw3/hw3_tests/llrec_tests
+"Pivot.NoCopySameNodeCheck" start time: Mar 08 05:03 UTC
+Output:
+----------------------------------------------------------
+==462== Memcheck, a memory error detector
+==462== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==462== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==462== Command: /home/codio/workspace/hw3/hw3_tests/llrec_tests/llrec_tests --gtest_filter=Pivot.NoCopySameNodeCheck
+==462== 
+Running main() from /home/codio/googletest/googletest/src/gtest_main.cc
+Note: Google Test filter = Pivot.NoCopySameNodeCheck
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Pivot
+[ RUN      ] Pivot.NoCopySameNodeCheck
+[       OK ] Pivot.NoCopySameNodeCheck (49 ms)
+[----------] 1 test from Pivot (59 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (112 ms total)
+[  PASSED  ] 1 test.
+==462== 
+==462== HEAP SUMMARY:
+==462==     in use at exit: 0 bytes in 0 blocks
+==462==   total heap usage: 420 allocs, 420 frees, 133,496 bytes allocated
+==462== 
+==462== All heap blocks were freed -- no leaks are possible
+==462== 
+==462== For counts of detected and suppressed errors, rerun with: -v
+==462== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   1.60 sec
+----------------------------------------------------------
+Test Passed.
+"Pivot.NoCopySameNodeCheck" end time: Mar 08 05:03 UTC
+"Pivot.NoCopySameNodeCheck" time elapsed: 00:00:01
+----------------------------------------------------------
+
+14/50 Testing: Filter.EmptyList
+14/50 Test: Filter.EmptyList
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "--error-exitcode=113" "/home/codio/workspace/hw3/hw3_tests/llrec_tests/llrec_tests" "--gtest_filter=Filter.EmptyList"
+Directory: /home/codio/workspace/hw3/hw3_tests/llrec_tests
+"Filter.EmptyList" start time: Mar 08 05:03 UTC
+Output:
+----------------------------------------------------------
+==463== Memcheck, a memory error detector
+==463== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==463== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==463== Command: /home/codio/workspace/hw3/hw3_tests/llrec_tests/llrec_tests --gtest_filter=Filter.EmptyList
+==463== 
+Running main() from /home/codio/googletest/googletest/src/gtest_main.cc
+Note: Google Test filter = Filter.EmptyList
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Filter
+[ RUN      ] Filter.EmptyList
+[       OK ] Filter.EmptyList (24 ms)
+[----------] 1 test from Filter (34 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (88 ms total)
+[  PASSED  ] 1 test.
+==463== 
+==463== HEAP SUMMARY:
+==463==     in use at exit: 0 bytes in 0 blocks
+==463==   total heap usage: 410 allocs, 410 frees, 133,254 bytes allocated
+==463== 
+==463== All heap blocks were freed -- no leaks are possible
+==463== 
+==463== For counts of detected and suppressed errors, rerun with: -v
+==463== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   1.58 sec
+----------------------------------------------------------
+Test Passed.
+"Filter.EmptyList" end time: Mar 08 05:03 UTC
+"Filter.EmptyList" time elapsed: 00:00:01
+----------------------------------------------------------
+
+15/50 Testing: Filter.Size1_F
+15/50 Test: Filter.Size1_F
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "--error-exitcode=113" "/home/codio/workspace/hw3/hw3_tests/llrec_tests/llrec_tests" "--gtest_filter=Filter.Size1_F"
+Directory: /home/codio/workspace/hw3/hw3_tests/llrec_tests
+"Filter.Size1_F" start time: Mar 08 05:03 UTC
+Output:
+----------------------------------------------------------
+==464== Memcheck, a memory error detector
+==464== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==464== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==464== Command: /home/codio/workspace/hw3/hw3_tests/llrec_tests/llrec_tests --gtest_filter=Filter.Size1_F
+==464== 
+Running main() from /home/codio/googletest/googletest/src/gtest_main.cc
+Note: Google Test filter = Filter.Size1_F
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Filter
+[ RUN      ] Filter.Size1_F
+[       OK ] Filter.Size1_F (32 ms)
+[----------] 1 test from Filter (42 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (96 ms total)
+[  PASSED  ] 1 test.
+==464== 
+==464== HEAP SUMMARY:
+==464==     in use at exit: 0 bytes in 0 blocks
+==464==   total heap usage: 407 allocs, 407 frees, 133,122 bytes allocated
+==464== 
+==464== All heap blocks were freed -- no leaks are possible
+==464== 
+==464== For counts of detected and suppressed errors, rerun with: -v
+==464== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   1.59 sec
+----------------------------------------------------------
+Test Passed.
+"Filter.Size1_F" end time: Mar 08 05:03 UTC
+"Filter.Size1_F" time elapsed: 00:00:01
+----------------------------------------------------------
+
+16/50 Testing: Filter.Size1_nF
+16/50 Test: Filter.Size1_nF
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "--error-exitcode=113" "/home/codio/workspace/hw3/hw3_tests/llrec_tests/llrec_tests" "--gtest_filter=Filter.Size1_nF"
+Directory: /home/codio/workspace/hw3/hw3_tests/llrec_tests
+"Filter.Size1_nF" start time: Mar 08 05:03 UTC
+Output:
+----------------------------------------------------------
+==465== Memcheck, a memory error detector
+==465== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==465== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==465== Command: /home/codio/workspace/hw3/hw3_tests/llrec_tests/llrec_tests --gtest_filter=Filter.Size1_nF
+==465== 
+Running main() from /home/codio/googletest/googletest/src/gtest_main.cc
+Note: Google Test filter = Filter.Size1_nF
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Filter
+[ RUN      ] Filter.Size1_nF
+[       OK ] Filter.Size1_nF (31 ms)
+[----------] 1 test from Filter (41 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (95 ms total)
+[  PASSED  ] 1 test.
+==465== 
+==465== HEAP SUMMARY:
+==465==     in use at exit: 0 bytes in 0 blocks
+==465==   total heap usage: 408 allocs, 408 frees, 133,131 bytes allocated
+==465== 
+==465== All heap blocks were freed -- no leaks are possible
+==465== 
+==465== For counts of detected and suppressed errors, rerun with: -v
+==465== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   1.57 sec
+----------------------------------------------------------
+Test Passed.
+"Filter.Size1_nF" end time: Mar 08 05:03 UTC
+"Filter.Size1_nF" time elapsed: 00:00:01
+----------------------------------------------------------
+
+17/50 Testing: Filter.Size2_F_nF
+17/50 Test: Filter.Size2_F_nF
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "--error-exitcode=113" "/home/codio/workspace/hw3/hw3_tests/llrec_tests/llrec_tests" "--gtest_filter=Filter.Size2_F_nF"
+Directory: /home/codio/workspace/hw3/hw3_tests/llrec_tests
+"Filter.Size2_F_nF" start time: Mar 08 05:03 UTC
+Output:
+----------------------------------------------------------
+==466== Memcheck, a memory error detector
+==466== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==466== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==466== Command: /home/codio/workspace/hw3/hw3_tests/llrec_tests/llrec_tests --gtest_filter=Filter.Size2_F_nF
+==466== 
+Running main() from /home/codio/googletest/googletest/src/gtest_main.cc
+Note: Google Test filter = Filter.Size2_F_nF
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Filter
+[ RUN      ] Filter.Size2_F_nF
+[       OK ] Filter.Size2_F_nF (33 ms)
+[----------] 1 test from Filter (43 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (96 ms total)
+[  PASSED  ] 1 test.
+==466== 
+==466== HEAP SUMMARY:
+==466==     in use at exit: 0 bytes in 0 blocks
+==466==   total heap usage: 415 allocs, 415 frees, 133,316 bytes allocated
+==466== 
+==466== All heap blocks were freed -- no leaks are possible
+==466== 
+==466== For counts of detected and suppressed errors, rerun with: -v
+==466== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   1.58 sec
+----------------------------------------------------------
+Test Passed.
+"Filter.Size2_F_nF" end time: Mar 08 05:03 UTC
+"Filter.Size2_F_nF" time elapsed: 00:00:01
+----------------------------------------------------------
+
+18/50 Testing: Filter.Size2_nF_F
+18/50 Test: Filter.Size2_nF_F
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "--error-exitcode=113" "/home/codio/workspace/hw3/hw3_tests/llrec_tests/llrec_tests" "--gtest_filter=Filter.Size2_nF_F"
+Directory: /home/codio/workspace/hw3/hw3_tests/llrec_tests
+"Filter.Size2_nF_F" start time: Mar 08 05:03 UTC
+Output:
+----------------------------------------------------------
+==467== Memcheck, a memory error detector
+==467== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==467== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==467== Command: /home/codio/workspace/hw3/hw3_tests/llrec_tests/llrec_tests --gtest_filter=Filter.Size2_nF_F
+==467== 
+Running main() from /home/codio/googletest/googletest/src/gtest_main.cc
+Note: Google Test filter = Filter.Size2_nF_F
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Filter
+[ RUN      ] Filter.Size2_nF_F
+[       OK ] Filter.Size2_nF_F (31 ms)
+[----------] 1 test from Filter (41 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (95 ms total)
+[  PASSED  ] 1 test.
+==467== 
+==467== HEAP SUMMARY:
+==467==     in use at exit: 0 bytes in 0 blocks
+==467==   total heap usage: 414 allocs, 414 frees, 133,308 bytes allocated
+==467== 
+==467== All heap blocks were freed -- no leaks are possible
+==467== 
+==467== For counts of detected and suppressed errors, rerun with: -v
+==467== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   1.58 sec
+----------------------------------------------------------
+Test Passed.
+"Filter.Size2_nF_F" end time: Mar 08 05:03 UTC
+"Filter.Size2_nF_F" time elapsed: 00:00:01
+----------------------------------------------------------
+
+19/50 Testing: Filter.Size3_nF_F_nF
+19/50 Test: Filter.Size3_nF_F_nF
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "--error-exitcode=113" "/home/codio/workspace/hw3/hw3_tests/llrec_tests/llrec_tests" "--gtest_filter=Filter.Size3_nF_F_nF"
+Directory: /home/codio/workspace/hw3/hw3_tests/llrec_tests
+"Filter.Size3_nF_F_nF" start time: Mar 08 05:03 UTC
+Output:
+----------------------------------------------------------
+==468== Memcheck, a memory error detector
+==468== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==468== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==468== Command: /home/codio/workspace/hw3/hw3_tests/llrec_tests/llrec_tests --gtest_filter=Filter.Size3_nF_F_nF
+==468== 
+Running main() from /home/codio/googletest/googletest/src/gtest_main.cc
+Note: Google Test filter = Filter.Size3_nF_F_nF
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Filter
+[ RUN      ] Filter.Size3_nF_F_nF
+[       OK ] Filter.Size3_nF_F_nF (32 ms)
+[----------] 1 test from Filter (42 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (96 ms total)
+[  PASSED  ] 1 test.
+==468== 
+==468== HEAP SUMMARY:
+==468==     in use at exit: 0 bytes in 0 blocks
+==468==   total heap usage: 415 allocs, 415 frees, 133,362 bytes allocated
+==468== 
+==468== All heap blocks were freed -- no leaks are possible
+==468== 
+==468== For counts of detected and suppressed errors, rerun with: -v
+==468== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   1.59 sec
+----------------------------------------------------------
+Test Passed.
+"Filter.Size3_nF_F_nF" end time: Mar 08 05:03 UTC
+"Filter.Size3_nF_F_nF" time elapsed: 00:00:01
+----------------------------------------------------------
+
+20/50 Testing: Filter.Size3_F_nF_F
+20/50 Test: Filter.Size3_F_nF_F
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "--error-exitcode=113" "/home/codio/workspace/hw3/hw3_tests/llrec_tests/llrec_tests" "--gtest_filter=Filter.Size3_F_nF_F"
+Directory: /home/codio/workspace/hw3/hw3_tests/llrec_tests
+"Filter.Size3_F_nF_F" start time: Mar 08 05:03 UTC
+Output:
+----------------------------------------------------------
+==469== Memcheck, a memory error detector
+==469== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==469== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==469== Command: /home/codio/workspace/hw3/hw3_tests/llrec_tests/llrec_tests --gtest_filter=Filter.Size3_F_nF_F
+==469== 
+Running main() from /home/codio/googletest/googletest/src/gtest_main.cc
+Note: Google Test filter = Filter.Size3_F_nF_F
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Filter
+[ RUN      ] Filter.Size3_F_nF_F
+[       OK ] Filter.Size3_F_nF_F (32 ms)
+[----------] 1 test from Filter (43 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (100 ms total)
+[  PASSED  ] 1 test.
+==469== 
+==469== HEAP SUMMARY:
+==469==     in use at exit: 0 bytes in 0 blocks
+==469==   total heap usage: 415 allocs, 415 frees, 133,348 bytes allocated
+==469== 
+==469== All heap blocks were freed -- no leaks are possible
+==469== 
+==469== For counts of detected and suppressed errors, rerun with: -v
+==469== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   1.64 sec
+----------------------------------------------------------
+Test Passed.
+"Filter.Size3_F_nF_F" end time: Mar 08 05:03 UTC
+"Filter.Size3_F_nF_F" time elapsed: 00:00:01
+----------------------------------------------------------
+
+21/50 Testing: Filter.SameNodeCheck
+21/50 Test: Filter.SameNodeCheck
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "--error-exitcode=113" "/home/codio/workspace/hw3/hw3_tests/llrec_tests/llrec_tests" "--gtest_filter=Filter.SameNodeCheck"
+Directory: /home/codio/workspace/hw3/hw3_tests/llrec_tests
+"Filter.SameNodeCheck" start time: Mar 08 05:03 UTC
+Output:
+----------------------------------------------------------
+==470== Memcheck, a memory error detector
+==470== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==470== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==470== Command: /home/codio/workspace/hw3/hw3_tests/llrec_tests/llrec_tests --gtest_filter=Filter.SameNodeCheck
+==470== 
+Running main() from /home/codio/googletest/googletest/src/gtest_main.cc
+Note: Google Test filter = Filter.SameNodeCheck
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Filter
+[ RUN      ] Filter.SameNodeCheck
+[       OK ] Filter.SameNodeCheck (47 ms)
+[----------] 1 test from Filter (57 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (111 ms total)
+[  PASSED  ] 1 test.
+==470== 
+==470== HEAP SUMMARY:
+==470==     in use at exit: 0 bytes in 0 blocks
+==470==   total heap usage: 420 allocs, 420 frees, 133,458 bytes allocated
+==470== 
+==470== All heap blocks were freed -- no leaks are possible
+==470== 
+==470== For counts of detected and suppressed errors, rerun with: -v
+==470== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   1.59 sec
+----------------------------------------------------------
+Test Passed.
+"Filter.SameNodeCheck" end time: Mar 08 05:03 UTC
+"Filter.SameNodeCheck" time elapsed: 00:00:01
+----------------------------------------------------------
+
+22/50 Testing: Filter.MultipleCalls
+22/50 Test: Filter.MultipleCalls
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "--error-exitcode=113" "/home/codio/workspace/hw3/hw3_tests/llrec_tests/llrec_tests" "--gtest_filter=Filter.MultipleCalls"
+Directory: /home/codio/workspace/hw3/hw3_tests/llrec_tests
+"Filter.MultipleCalls" start time: Mar 08 05:03 UTC
+Output:
+----------------------------------------------------------
+==471== Memcheck, a memory error detector
+==471== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==471== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==471== Command: /home/codio/workspace/hw3/hw3_tests/llrec_tests/llrec_tests --gtest_filter=Filter.MultipleCalls
+==471== 
+Running main() from /home/codio/googletest/googletest/src/gtest_main.cc
+Note: Google Test filter = Filter.MultipleCalls
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Filter
+[ RUN      ] Filter.MultipleCalls
+[       OK ] Filter.MultipleCalls (33 ms)
+[----------] 1 test from Filter (43 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (97 ms total)
+[  PASSED  ] 1 test.
+==471== 
+==471== HEAP SUMMARY:
+==471==     in use at exit: 0 bytes in 0 blocks
+==471==   total heap usage: 420 allocs, 420 frees, 133,458 bytes allocated
+==471== 
+==471== All heap blocks were freed -- no leaks are possible
+==471== 
+==471== For counts of detected and suppressed errors, rerun with: -v
+==471== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   1.58 sec
+----------------------------------------------------------
+Test Passed.
+"Filter.MultipleCalls" end time: Mar 08 05:03 UTC
+"Filter.MultipleCalls" time elapsed: 00:00:01
+----------------------------------------------------------
+
+23/50 Testing: Filter.CompareWithLlrec
+23/50 Test: Filter.CompareWithLlrec
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "--error-exitcode=113" "/home/codio/workspace/hw3/hw3_tests/llrec_tests/llrec_tests" "--gtest_filter=Filter.CompareWithLlrec"
+Directory: /home/codio/workspace/hw3/hw3_tests/llrec_tests
+"Filter.CompareWithLlrec" start time: Mar 08 05:03 UTC
+Output:
+----------------------------------------------------------
+==472== Memcheck, a memory error detector
+==472== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==472== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==472== Command: /home/codio/workspace/hw3/hw3_tests/llrec_tests/llrec_tests --gtest_filter=Filter.CompareWithLlrec
+==472== 
+Running main() from /home/codio/googletest/googletest/src/gtest_main.cc
+Note: Google Test filter = Filter.CompareWithLlrec
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Filter
+[ RUN      ] Filter.CompareWithLlrec
+[       OK ] Filter.CompareWithLlrec (47 ms)
+[----------] 1 test from Filter (57 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (114 ms total)
+[  PASSED  ] 1 test.
+==472== 
+==472== HEAP SUMMARY:
+==472==     in use at exit: 0 bytes in 0 blocks
+==472==   total heap usage: 430 allocs, 430 frees, 133,612 bytes allocated
+==472== 
+==472== All heap blocks were freed -- no leaks are possible
+==472== 
+==472== For counts of detected and suppressed errors, rerun with: -v
+==472== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   1.60 sec
+----------------------------------------------------------
+Test Passed.
+"Filter.CompareWithLlrec" end time: Mar 08 05:03 UTC
+"Filter.CompareWithLlrec" time elapsed: 00:00:01
+----------------------------------------------------------
+
+24/50 Testing: Stack.BasicString
+24/50 Test: Stack.BasicString
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "--error-exitcode=113" "/home/codio/workspace/hw3/hw3_tests/stack_tests/stack_tests" "--gtest_filter=Stack.BasicString"
+Directory: /home/codio/workspace/hw3/hw3_tests/stack_tests
+"Stack.BasicString" start time: Mar 08 05:03 UTC
+Output:
+----------------------------------------------------------
+==473== Memcheck, a memory error detector
+==473== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==473== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==473== Command: /home/codio/workspace/hw3/hw3_tests/stack_tests/stack_tests --gtest_filter=Stack.BasicString
+==473== 
+Running main() from /home/codio/googletest/googletest/src/gtest_main.cc
+Note: Google Test filter = Stack.BasicString
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Stack
+[ RUN      ] Stack.BasicString
+[       OK ] Stack.BasicString (97 ms)
+[----------] 1 test from Stack (108 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (163 ms total)
+[  PASSED  ] 1 test.
+==473== 
+==473== HEAP SUMMARY:
+==473==     in use at exit: 0 bytes in 0 blocks
+==473==   total heap usage: 230 allocs, 230 frees, 120,594 bytes allocated
+==473== 
+==473== All heap blocks were freed -- no leaks are possible
+==473== 
+==473== For counts of detected and suppressed errors, rerun with: -v
+==473== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   1.63 sec
+----------------------------------------------------------
+Test Passed.
+"Stack.BasicString" end time: Mar 08 05:03 UTC
+"Stack.BasicString" time elapsed: 00:00:01
+----------------------------------------------------------
+
+25/50 Testing: Stack.RandomInt
+25/50 Test: Stack.RandomInt
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "--error-exitcode=113" "/home/codio/workspace/hw3/hw3_tests/stack_tests/stack_tests" "--gtest_filter=Stack.RandomInt"
+Directory: /home/codio/workspace/hw3/hw3_tests/stack_tests
+"Stack.RandomInt" start time: Mar 08 05:03 UTC
+Output:
+----------------------------------------------------------
+==474== Memcheck, a memory error detector
+==474== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==474== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==474== Command: /home/codio/workspace/hw3/hw3_tests/stack_tests/stack_tests --gtest_filter=Stack.RandomInt
+==474== 
+Running main() from /home/codio/googletest/googletest/src/gtest_main.cc
+Note: Google Test filter = Stack.RandomInt
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Stack
+[ RUN      ] Stack.RandomInt
+[       OK ] Stack.RandomInt (1670 ms)
+[----------] 1 test from Stack (1680 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (1733 ms total)
+[  PASSED  ] 1 test.
+==474== 
+==474== HEAP SUMMARY:
+==474==     in use at exit: 0 bytes in 0 blocks
+==474==   total heap usage: 21,262 allocs, 21,262 frees, 1,081,433 bytes allocated
+==474== 
+==474== All heap blocks were freed -- no leaks are possible
+==474== 
+==474== For counts of detected and suppressed errors, rerun with: -v
+==474== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   3.19 sec
+----------------------------------------------------------
+Test Passed.
+"Stack.RandomInt" end time: Mar 08 05:03 UTC
+"Stack.RandomInt" time elapsed: 00:00:03
+----------------------------------------------------------
+
+26/50 Testing: HeapTest.ConstructionDestruction
+26/50 Test: HeapTest.ConstructionDestruction
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "--error-exitcode=113" "/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests" "--gtest_filter=HeapTest.ConstructionDestruction"
+Directory: /home/codio/workspace/hw3/hw3_tests/heap_tests
+"HeapTest.ConstructionDestruction" start time: Mar 08 05:03 UTC
+Output:
+----------------------------------------------------------
+==475== Memcheck, a memory error detector
+==475== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==475== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==475== Command: /home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests --gtest_filter=HeapTest.ConstructionDestruction
+==475== 
+Running main() from /home/codio/googletest/googletest/src/gtest_main.cc
+Note: Google Test filter = HeapTest.ConstructionDestruction
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from HeapTest
+[ RUN      ] HeapTest.ConstructionDestruction
+[       OK ] HeapTest.ConstructionDestruction (18 ms)
+[----------] 1 test from HeapTest (27 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (82 ms total)
+[  PASSED  ] 1 test.
+==475== 
+==475== HEAP SUMMARY:
+==475==     in use at exit: 0 bytes in 0 blocks
+==475==   total heap usage: 468 allocs, 468 frees, 135,793 bytes allocated
+==475== 
+==475== All heap blocks were freed -- no leaks are possible
+==475== 
+==475== For counts of detected and suppressed errors, rerun with: -v
+==475== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   1.58 sec
+----------------------------------------------------------
+Test Passed.
+"HeapTest.ConstructionDestruction" end time: Mar 08 05:03 UTC
+"HeapTest.ConstructionDestruction" time elapsed: 00:00:01
+----------------------------------------------------------
+
+27/50 Testing: HeapTest.InitiallyEmpty
+27/50 Test: HeapTest.InitiallyEmpty
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "--error-exitcode=113" "/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests" "--gtest_filter=HeapTest.InitiallyEmpty"
+Directory: /home/codio/workspace/hw3/hw3_tests/heap_tests
+"HeapTest.InitiallyEmpty" start time: Mar 08 05:03 UTC
+Output:
+----------------------------------------------------------
+==476== Memcheck, a memory error detector
+==476== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==476== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==476== Command: /home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests --gtest_filter=HeapTest.InitiallyEmpty
+==476== 
+Running main() from /home/codio/googletest/googletest/src/gtest_main.cc
+Note: Google Test filter = HeapTest.InitiallyEmpty
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from HeapTest
+[ RUN      ] HeapTest.InitiallyEmpty
+[       OK ] HeapTest.InitiallyEmpty (21 ms)
+[----------] 1 test from HeapTest (30 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (84 ms total)
+[  PASSED  ] 1 test.
+==476== 
+==476== HEAP SUMMARY:
+==476==     in use at exit: 0 bytes in 0 blocks
+==476==   total heap usage: 468 allocs, 468 frees, 135,697 bytes allocated
+==476== 
+==476== All heap blocks were freed -- no leaks are possible
+==476== 
+==476== For counts of detected and suppressed errors, rerun with: -v
+==476== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   1.58 sec
+----------------------------------------------------------
+Test Passed.
+"HeapTest.InitiallyEmpty" end time: Mar 08 05:03 UTC
+"HeapTest.InitiallyEmpty" time elapsed: 00:00:01
+----------------------------------------------------------
+
+28/50 Testing: HeapTest.EmptyTopException
+28/50 Test: HeapTest.EmptyTopException
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "--error-exitcode=113" "/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests" "--gtest_filter=HeapTest.EmptyTopException"
+Directory: /home/codio/workspace/hw3/hw3_tests/heap_tests
+"HeapTest.EmptyTopException" start time: Mar 08 05:03 UTC
+Output:
+----------------------------------------------------------
+==477== Memcheck, a memory error detector
+==477== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==477== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==477== Command: /home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests --gtest_filter=HeapTest.EmptyTopException
+==477== 
+Running main() from /home/codio/googletest/googletest/src/gtest_main.cc
+Note: Google Test filter = HeapTest.EmptyTopException
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from HeapTest
+[ RUN      ] HeapTest.EmptyTopException
+[       OK ] HeapTest.EmptyTopException (62 ms)
+[----------] 1 test from HeapTest (72 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (126 ms total)
+[  PASSED  ] 1 test.
+==477== 
+==477== HEAP SUMMARY:
+==477==     in use at exit: 0 bytes in 0 blocks
+==477==   total heap usage: 470 allocs, 470 frees, 135,915 bytes allocated
+==477== 
+==477== All heap blocks were freed -- no leaks are possible
+==477== 
+==477== For counts of detected and suppressed errors, rerun with: -v
+==477== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   1.62 sec
+----------------------------------------------------------
+Test Passed.
+"HeapTest.EmptyTopException" end time: Mar 08 05:03 UTC
+"HeapTest.EmptyTopException" time elapsed: 00:00:01
+----------------------------------------------------------
+
+29/50 Testing: HeapTest.EmptyPopException
+29/50 Test: HeapTest.EmptyPopException
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "--error-exitcode=113" "/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests" "--gtest_filter=HeapTest.EmptyPopException"
+Directory: /home/codio/workspace/hw3/hw3_tests/heap_tests
+"HeapTest.EmptyPopException" start time: Mar 08 05:03 UTC
+Output:
+----------------------------------------------------------
+==478== Memcheck, a memory error detector
+==478== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==478== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==478== Command: /home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests --gtest_filter=HeapTest.EmptyPopException
+==478== 
+Running main() from /home/codio/googletest/googletest/src/gtest_main.cc
+Note: Google Test filter = HeapTest.EmptyPopException
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from HeapTest
+[ RUN      ] HeapTest.EmptyPopException
+[       OK ] HeapTest.EmptyPopException (63 ms)
+[----------] 1 test from HeapTest (73 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (128 ms total)
+[  PASSED  ] 1 test.
+==478== 
+==478== HEAP SUMMARY:
+==478==     in use at exit: 0 bytes in 0 blocks
+==478==   total heap usage: 470 allocs, 470 frees, 135,915 bytes allocated
+==478== 
+==478== All heap blocks were freed -- no leaks are possible
+==478== 
+==478== For counts of detected and suppressed errors, rerun with: -v
+==478== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   1.63 sec
+----------------------------------------------------------
+Test Passed.
+"HeapTest.EmptyPopException" end time: Mar 08 05:03 UTC
+"HeapTest.EmptyPopException" time elapsed: 00:00:01
+----------------------------------------------------------
+
+30/50 Testing: HeapTest.SingleItemNonempty
+30/50 Test: HeapTest.SingleItemNonempty
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "--error-exitcode=113" "/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests" "--gtest_filter=HeapTest.SingleItemNonempty"
+Directory: /home/codio/workspace/hw3/hw3_tests/heap_tests
+"HeapTest.SingleItemNonempty" start time: Mar 08 05:03 UTC
+Output:
+----------------------------------------------------------
+==479== Memcheck, a memory error detector
+==479== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==479== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==479== Command: /home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests --gtest_filter=HeapTest.SingleItemNonempty
+==479== 
+Running main() from /home/codio/googletest/googletest/src/gtest_main.cc
+Note: Google Test filter = HeapTest.SingleItemNonempty
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from HeapTest
+[ RUN      ] HeapTest.SingleItemNonempty
+[       OK ] HeapTest.SingleItemNonempty (25 ms)
+[----------] 1 test from HeapTest (34 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (88 ms total)
+[  PASSED  ] 1 test.
+==479== 
+==479== HEAP SUMMARY:
+==479==     in use at exit: 0 bytes in 0 blocks
+==479==   total heap usage: 469 allocs, 469 frees, 135,741 bytes allocated
+==479== 
+==479== All heap blocks were freed -- no leaks are possible
+==479== 
+==479== For counts of detected and suppressed errors, rerun with: -v
+==479== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   1.59 sec
+----------------------------------------------------------
+Test Passed.
+"HeapTest.SingleItemNonempty" end time: Mar 08 05:03 UTC
+"HeapTest.SingleItemNonempty" time elapsed: 00:00:01
+----------------------------------------------------------
+
+31/50 Testing: HeapTest.SingleItemPush
+31/50 Test: HeapTest.SingleItemPush
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "--error-exitcode=113" "/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests" "--gtest_filter=HeapTest.SingleItemPush"
+Directory: /home/codio/workspace/hw3/hw3_tests/heap_tests
+"HeapTest.SingleItemPush" start time: Mar 08 05:03 UTC
+Output:
+----------------------------------------------------------
+==480== Memcheck, a memory error detector
+==480== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==480== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==480== Command: /home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests --gtest_filter=HeapTest.SingleItemPush
+==480== 
+Running main() from /home/codio/googletest/googletest/src/gtest_main.cc
+Note: Google Test filter = HeapTest.SingleItemPush
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from HeapTest
+[ RUN      ] HeapTest.SingleItemPush
+[       OK ] HeapTest.SingleItemPush (29 ms)
+[----------] 1 test from HeapTest (38 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (94 ms total)
+[  PASSED  ] 1 test.
+==480== 
+==480== HEAP SUMMARY:
+==480==     in use at exit: 0 bytes in 0 blocks
+==480==   total heap usage: 469 allocs, 469 frees, 135,701 bytes allocated
+==480== 
+==480== All heap blocks were freed -- no leaks are possible
+==480== 
+==480== For counts of detected and suppressed errors, rerun with: -v
+==480== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   1.60 sec
+----------------------------------------------------------
+Test Passed.
+"HeapTest.SingleItemPush" end time: Mar 08 05:03 UTC
+"HeapTest.SingleItemPush" time elapsed: 00:00:01
+----------------------------------------------------------
+
+32/50 Testing: HeapTest.SingleItemPushPop
+32/50 Test: HeapTest.SingleItemPushPop
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "--error-exitcode=113" "/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests" "--gtest_filter=HeapTest.SingleItemPushPop"
+Directory: /home/codio/workspace/hw3/hw3_tests/heap_tests
+"HeapTest.SingleItemPushPop" start time: Mar 08 05:03 UTC
+Output:
+----------------------------------------------------------
+==481== Memcheck, a memory error detector
+==481== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==481== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==481== Command: /home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests --gtest_filter=HeapTest.SingleItemPushPop
+==481== 
+Running main() from /home/codio/googletest/googletest/src/gtest_main.cc
+Note: Google Test filter = HeapTest.SingleItemPushPop
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from HeapTest
+[ RUN      ] HeapTest.SingleItemPushPop
+[       OK ] HeapTest.SingleItemPushPop (27 ms)
+[----------] 1 test from HeapTest (36 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (90 ms total)
+[  PASSED  ] 1 test.
+==481== 
+==481== HEAP SUMMARY:
+==481==     in use at exit: 0 bytes in 0 blocks
+==481==   total heap usage: 469 allocs, 469 frees, 135,731 bytes allocated
+==481== 
+==481== All heap blocks were freed -- no leaks are possible
+==481== 
+==481== For counts of detected and suppressed errors, rerun with: -v
+==481== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   1.60 sec
+----------------------------------------------------------
+Test Passed.
+"HeapTest.SingleItemPushPop" end time: Mar 08 05:03 UTC
+"HeapTest.SingleItemPushPop" time elapsed: 00:00:01
+----------------------------------------------------------
+
+33/50 Testing: HeapTest.TwoElementPush_LowPriFirst
+33/50 Test: HeapTest.TwoElementPush_LowPriFirst
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "--error-exitcode=113" "/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests" "--gtest_filter=HeapTest.TwoElementPush_LowPriFirst"
+Directory: /home/codio/workspace/hw3/hw3_tests/heap_tests
+"HeapTest.TwoElementPush_LowPriFirst" start time: Mar 08 05:03 UTC
+Output:
+----------------------------------------------------------
+==482== Memcheck, a memory error detector
+==482== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==482== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==482== Command: /home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests --gtest_filter=HeapTest.TwoElementPush_LowPriFirst
+==482== 
+Running main() from /home/codio/googletest/googletest/src/gtest_main.cc
+Note: Google Test filter = HeapTest.TwoElementPush_LowPriFirst
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from HeapTest
+[ RUN      ] HeapTest.TwoElementPush_LowPriFirst
+[       OK ] HeapTest.TwoElementPush_LowPriFirst (34 ms)
+[----------] 1 test from HeapTest (45 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (100 ms total)
+[  PASSED  ] 1 test.
+==482== 
+==482== HEAP SUMMARY:
+==482==     in use at exit: 0 bytes in 0 blocks
+==482==   total heap usage: 470 allocs, 470 frees, 135,844 bytes allocated
+==482== 
+==482== All heap blocks were freed -- no leaks are possible
+==482== 
+==482== For counts of detected and suppressed errors, rerun with: -v
+==482== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   1.60 sec
+----------------------------------------------------------
+Test Passed.
+"HeapTest.TwoElementPush_LowPriFirst" end time: Mar 08 05:03 UTC
+"HeapTest.TwoElementPush_LowPriFirst" time elapsed: 00:00:01
+----------------------------------------------------------
+
+34/50 Testing: HeapTest.TwoElementPush_HighPriFirst
+34/50 Test: HeapTest.TwoElementPush_HighPriFirst
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "--error-exitcode=113" "/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests" "--gtest_filter=HeapTest.TwoElementPush_HighPriFirst"
+Directory: /home/codio/workspace/hw3/hw3_tests/heap_tests
+"HeapTest.TwoElementPush_HighPriFirst" start time: Mar 08 05:03 UTC
+Output:
+----------------------------------------------------------
+==483== Memcheck, a memory error detector
+==483== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==483== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==483== Command: /home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests --gtest_filter=HeapTest.TwoElementPush_HighPriFirst
+==483== 
+Running main() from /home/codio/googletest/googletest/src/gtest_main.cc
+Note: Google Test filter = HeapTest.TwoElementPush_HighPriFirst
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from HeapTest
+[ RUN      ] HeapTest.TwoElementPush_HighPriFirst
+[       OK ] HeapTest.TwoElementPush_HighPriFirst (34 ms)
+[----------] 1 test from HeapTest (44 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (99 ms total)
+[  PASSED  ] 1 test.
+==483== 
+==483== HEAP SUMMARY:
+==483==     in use at exit: 0 bytes in 0 blocks
+==483==   total heap usage: 470 allocs, 470 frees, 135,857 bytes allocated
+==483== 
+==483== All heap blocks were freed -- no leaks are possible
+==483== 
+==483== For counts of detected and suppressed errors, rerun with: -v
+==483== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   1.60 sec
+----------------------------------------------------------
+Test Passed.
+"HeapTest.TwoElementPush_HighPriFirst" end time: Mar 08 05:03 UTC
+"HeapTest.TwoElementPush_HighPriFirst" time elapsed: 00:00:01
+----------------------------------------------------------
+
+35/50 Testing: HeapTest.Duplicates
+35/50 Test: HeapTest.Duplicates
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "--error-exitcode=113" "/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests" "--gtest_filter=HeapTest.Duplicates"
+Directory: /home/codio/workspace/hw3/hw3_tests/heap_tests
+"HeapTest.Duplicates" start time: Mar 08 05:03 UTC
+Output:
+----------------------------------------------------------
+==484== Memcheck, a memory error detector
+==484== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==484== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==484== Command: /home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests --gtest_filter=HeapTest.Duplicates
+==484== 
+Running main() from /home/codio/googletest/googletest/src/gtest_main.cc
+Note: Google Test filter = HeapTest.Duplicates
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from HeapTest
+[ RUN      ] HeapTest.Duplicates
+[       OK ] HeapTest.Duplicates (47 ms)
+[----------] 1 test from HeapTest (60 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (123 ms total)
+[  PASSED  ] 1 test.
+==484== 
+==484== HEAP SUMMARY:
+==484==     in use at exit: 0 bytes in 0 blocks
+==484==   total heap usage: 471 allocs, 471 frees, 135,685 bytes allocated
+==484== 
+==484== All heap blocks were freed -- no leaks are possible
+==484== 
+==484== For counts of detected and suppressed errors, rerun with: -v
+==484== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   1.70 sec
+----------------------------------------------------------
+Test Passed.
+"HeapTest.Duplicates" end time: Mar 08 05:03 UTC
+"HeapTest.Duplicates" time elapsed: 00:00:01
+----------------------------------------------------------
+
+36/50 Testing: HeapTest.NegativeElements
+36/50 Test: HeapTest.NegativeElements
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "--error-exitcode=113" "/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests" "--gtest_filter=HeapTest.NegativeElements"
+Directory: /home/codio/workspace/hw3/hw3_tests/heap_tests
+"HeapTest.NegativeElements" start time: Mar 08 05:03 UTC
+Output:
+----------------------------------------------------------
+==485== Memcheck, a memory error detector
+==485== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==485== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==485== Command: /home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests --gtest_filter=HeapTest.NegativeElements
+==485== 
+Running main() from /home/codio/googletest/googletest/src/gtest_main.cc
+Note: Google Test filter = HeapTest.NegativeElements
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from HeapTest
+[ RUN      ] HeapTest.NegativeElements
+[       OK ] HeapTest.NegativeElements (31 ms)
+[----------] 1 test from HeapTest (41 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (98 ms total)
+[  PASSED  ] 1 test.
+==485== 
+==485== HEAP SUMMARY:
+==485==     in use at exit: 0 bytes in 0 blocks
+==485==   total heap usage: 470 allocs, 470 frees, 135,729 bytes allocated
+==485== 
+==485== All heap blocks were freed -- no leaks are possible
+==485== 
+==485== For counts of detected and suppressed errors, rerun with: -v
+==485== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   1.72 sec
+----------------------------------------------------------
+Test Passed.
+"HeapTest.NegativeElements" end time: Mar 08 05:03 UTC
+"HeapTest.NegativeElements" time elapsed: 00:00:01
+----------------------------------------------------------
+
+37/50 Testing: HeapTest.ThreeElementPush_0_5_10
+37/50 Test: HeapTest.ThreeElementPush_0_5_10
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "--error-exitcode=113" "/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests" "--gtest_filter=HeapTest.ThreeElementPush_0_5_10"
+Directory: /home/codio/workspace/hw3/hw3_tests/heap_tests
+"HeapTest.ThreeElementPush_0_5_10" start time: Mar 08 05:03 UTC
+Output:
+----------------------------------------------------------
+==486== Memcheck, a memory error detector
+==486== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==486== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==486== Command: /home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests --gtest_filter=HeapTest.ThreeElementPush_0_5_10
+==486== 
+Running main() from /home/codio/googletest/googletest/src/gtest_main.cc
+Note: Google Test filter = HeapTest.ThreeElementPush_0_5_10
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from HeapTest
+[ RUN      ] HeapTest.ThreeElementPush_0_5_10
+[       OK ] HeapTest.ThreeElementPush_0_5_10 (37 ms)
+[----------] 1 test from HeapTest (49 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (106 ms total)
+[  PASSED  ] 1 test.
+==486== 
+==486== HEAP SUMMARY:
+==486==     in use at exit: 0 bytes in 0 blocks
+==486==   total heap usage: 471 allocs, 471 frees, 135,821 bytes allocated
+==486== 
+==486== All heap blocks were freed -- no leaks are possible
+==486== 
+==486== For counts of detected and suppressed errors, rerun with: -v
+==486== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   1.80 sec
+----------------------------------------------------------
+Test Passed.
+"HeapTest.ThreeElementPush_0_5_10" end time: Mar 08 05:03 UTC
+"HeapTest.ThreeElementPush_0_5_10" time elapsed: 00:00:01
+----------------------------------------------------------
+
+38/50 Testing: HeapTest.ThreeElementPush_0_10_5
+38/50 Test: HeapTest.ThreeElementPush_0_10_5
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "--error-exitcode=113" "/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests" "--gtest_filter=HeapTest.ThreeElementPush_0_10_5"
+Directory: /home/codio/workspace/hw3/hw3_tests/heap_tests
+"HeapTest.ThreeElementPush_0_10_5" start time: Mar 08 05:03 UTC
+Output:
+----------------------------------------------------------
+==487== Memcheck, a memory error detector
+==487== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==487== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==487== Command: /home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests --gtest_filter=HeapTest.ThreeElementPush_0_10_5
+==487== 
+Running main() from /home/codio/googletest/googletest/src/gtest_main.cc
+Note: Google Test filter = HeapTest.ThreeElementPush_0_10_5
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from HeapTest
+[ RUN      ] HeapTest.ThreeElementPush_0_10_5
+[       OK ] HeapTest.ThreeElementPush_0_10_5 (46 ms)
+[----------] 1 test from HeapTest (58 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (125 ms total)
+[  PASSED  ] 1 test.
+==487== 
+==487== HEAP SUMMARY:
+==487==     in use at exit: 0 bytes in 0 blocks
+==487==   total heap usage: 471 allocs, 471 frees, 135,821 bytes allocated
+==487== 
+==487== All heap blocks were freed -- no leaks are possible
+==487== 
+==487== For counts of detected and suppressed errors, rerun with: -v
+==487== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   1.82 sec
+----------------------------------------------------------
+Test Passed.
+"HeapTest.ThreeElementPush_0_10_5" end time: Mar 08 05:03 UTC
+"HeapTest.ThreeElementPush_0_10_5" time elapsed: 00:00:01
+----------------------------------------------------------
+
+39/50 Testing: HeapTest.ThreeElementPush_5_0_10
+39/50 Test: HeapTest.ThreeElementPush_5_0_10
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "--error-exitcode=113" "/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests" "--gtest_filter=HeapTest.ThreeElementPush_5_0_10"
+Directory: /home/codio/workspace/hw3/hw3_tests/heap_tests
+"HeapTest.ThreeElementPush_5_0_10" start time: Mar 08 05:03 UTC
+Output:
+----------------------------------------------------------
+==488== Memcheck, a memory error detector
+==488== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==488== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==488== Command: /home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests --gtest_filter=HeapTest.ThreeElementPush_5_0_10
+==488== 
+Running main() from /home/codio/googletest/googletest/src/gtest_main.cc
+Note: Google Test filter = HeapTest.ThreeElementPush_5_0_10
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from HeapTest
+[ RUN      ] HeapTest.ThreeElementPush_5_0_10
+[       OK ] HeapTest.ThreeElementPush_5_0_10 (39 ms)
+[----------] 1 test from HeapTest (49 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (103 ms total)
+[  PASSED  ] 1 test.
+==488== 
+==488== HEAP SUMMARY:
+==488==     in use at exit: 0 bytes in 0 blocks
+==488==   total heap usage: 471 allocs, 471 frees, 135,821 bytes allocated
+==488== 
+==488== All heap blocks were freed -- no leaks are possible
+==488== 
+==488== For counts of detected and suppressed errors, rerun with: -v
+==488== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   1.73 sec
+----------------------------------------------------------
+Test Passed.
+"HeapTest.ThreeElementPush_5_0_10" end time: Mar 08 05:04 UTC
+"HeapTest.ThreeElementPush_5_0_10" time elapsed: 00:00:01
+----------------------------------------------------------
+
+40/50 Testing: HeapTest.ThreeElementPush_5_10_0
+40/50 Test: HeapTest.ThreeElementPush_5_10_0
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "--error-exitcode=113" "/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests" "--gtest_filter=HeapTest.ThreeElementPush_5_10_0"
+Directory: /home/codio/workspace/hw3/hw3_tests/heap_tests
+"HeapTest.ThreeElementPush_5_10_0" start time: Mar 08 05:04 UTC
+Output:
+----------------------------------------------------------
+==489== Memcheck, a memory error detector
+==489== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==489== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==489== Command: /home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests --gtest_filter=HeapTest.ThreeElementPush_5_10_0
+==489== 
+Running main() from /home/codio/googletest/googletest/src/gtest_main.cc
+Note: Google Test filter = HeapTest.ThreeElementPush_5_10_0
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from HeapTest
+[ RUN      ] HeapTest.ThreeElementPush_5_10_0
+[       OK ] HeapTest.ThreeElementPush_5_10_0 (38 ms)
+[----------] 1 test from HeapTest (48 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (104 ms total)
+[  PASSED  ] 1 test.
+==489== 
+==489== HEAP SUMMARY:
+==489==     in use at exit: 0 bytes in 0 blocks
+==489==   total heap usage: 471 allocs, 471 frees, 135,821 bytes allocated
+==489== 
+==489== All heap blocks were freed -- no leaks are possible
+==489== 
+==489== For counts of detected and suppressed errors, rerun with: -v
+==489== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   1.77 sec
+----------------------------------------------------------
+Test Passed.
+"HeapTest.ThreeElementPush_5_10_0" end time: Mar 08 05:04 UTC
+"HeapTest.ThreeElementPush_5_10_0" time elapsed: 00:00:01
+----------------------------------------------------------
+
+41/50 Testing: HeapTest.ThreeElementPush_10_0_5
+41/50 Test: HeapTest.ThreeElementPush_10_0_5
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "--error-exitcode=113" "/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests" "--gtest_filter=HeapTest.ThreeElementPush_10_0_5"
+Directory: /home/codio/workspace/hw3/hw3_tests/heap_tests
+"HeapTest.ThreeElementPush_10_0_5" start time: Mar 08 05:04 UTC
+Output:
+----------------------------------------------------------
+==490== Memcheck, a memory error detector
+==490== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==490== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==490== Command: /home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests --gtest_filter=HeapTest.ThreeElementPush_10_0_5
+==490== 
+Running main() from /home/codio/googletest/googletest/src/gtest_main.cc
+Note: Google Test filter = HeapTest.ThreeElementPush_10_0_5
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from HeapTest
+[ RUN      ] HeapTest.ThreeElementPush_10_0_5
+[       OK ] HeapTest.ThreeElementPush_10_0_5 (45 ms)
+[----------] 1 test from HeapTest (57 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (116 ms total)
+[  PASSED  ] 1 test.
+==490== 
+==490== HEAP SUMMARY:
+==490==     in use at exit: 0 bytes in 0 blocks
+==490==   total heap usage: 471 allocs, 471 frees, 135,821 bytes allocated
+==490== 
+==490== All heap blocks were freed -- no leaks are possible
+==490== 
+==490== For counts of detected and suppressed errors, rerun with: -v
+==490== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   1.67 sec
+----------------------------------------------------------
+Test Passed.
+"HeapTest.ThreeElementPush_10_0_5" end time: Mar 08 05:04 UTC
+"HeapTest.ThreeElementPush_10_0_5" time elapsed: 00:00:01
+----------------------------------------------------------
+
+42/50 Testing: HeapTest.ThreeElementPush_10_5_0
+42/50 Test: HeapTest.ThreeElementPush_10_5_0
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "--error-exitcode=113" "/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests" "--gtest_filter=HeapTest.ThreeElementPush_10_5_0"
+Directory: /home/codio/workspace/hw3/hw3_tests/heap_tests
+"HeapTest.ThreeElementPush_10_5_0" start time: Mar 08 05:04 UTC
+Output:
+----------------------------------------------------------
+==491== Memcheck, a memory error detector
+==491== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==491== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==491== Command: /home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests --gtest_filter=HeapTest.ThreeElementPush_10_5_0
+==491== 
+Running main() from /home/codio/googletest/googletest/src/gtest_main.cc
+Note: Google Test filter = HeapTest.ThreeElementPush_10_5_0
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from HeapTest
+[ RUN      ] HeapTest.ThreeElementPush_10_5_0
+[       OK ] HeapTest.ThreeElementPush_10_5_0 (36 ms)
+[----------] 1 test from HeapTest (46 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (100 ms total)
+[  PASSED  ] 1 test.
+==491== 
+==491== HEAP SUMMARY:
+==491==     in use at exit: 0 bytes in 0 blocks
+==491==   total heap usage: 471 allocs, 471 frees, 135,821 bytes allocated
+==491== 
+==491== All heap blocks were freed -- no leaks are possible
+==491== 
+==491== For counts of detected and suppressed errors, rerun with: -v
+==491== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   1.60 sec
+----------------------------------------------------------
+Test Passed.
+"HeapTest.ThreeElementPush_10_5_0" end time: Mar 08 05:04 UTC
+"HeapTest.ThreeElementPush_10_5_0" time elapsed: 00:00:01
+----------------------------------------------------------
+
+43/50 Testing: HeapTest.GreaterComparator
+43/50 Test: HeapTest.GreaterComparator
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "--error-exitcode=113" "/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests" "--gtest_filter=HeapTest.GreaterComparator"
+Directory: /home/codio/workspace/hw3/hw3_tests/heap_tests
+"HeapTest.GreaterComparator" start time: Mar 08 05:04 UTC
+Output:
+----------------------------------------------------------
+==492== Memcheck, a memory error detector
+==492== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==492== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==492== Command: /home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests --gtest_filter=HeapTest.GreaterComparator
+==492== 
+Running main() from /home/codio/googletest/googletest/src/gtest_main.cc
+Note: Google Test filter = HeapTest.GreaterComparator
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from HeapTest
+[ RUN      ] HeapTest.GreaterComparator
+[       OK ] HeapTest.GreaterComparator (37 ms)
+[----------] 1 test from HeapTest (47 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (101 ms total)
+[  PASSED  ] 1 test.
+==492== 
+==492== HEAP SUMMARY:
+==492==     in use at exit: 0 bytes in 0 blocks
+==492==   total heap usage: 471 allocs, 471 frees, 135,755 bytes allocated
+==492== 
+==492== All heap blocks were freed -- no leaks are possible
+==492== 
+==492== For counts of detected and suppressed errors, rerun with: -v
+==492== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   1.60 sec
+----------------------------------------------------------
+Test Passed.
+"HeapTest.GreaterComparator" end time: Mar 08 05:04 UTC
+"HeapTest.GreaterComparator" time elapsed: 00:00:01
+----------------------------------------------------------
+
+44/50 Testing: HeapTest.StringStorage
+44/50 Test: HeapTest.StringStorage
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "--error-exitcode=113" "/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests" "--gtest_filter=HeapTest.StringStorage"
+Directory: /home/codio/workspace/hw3/hw3_tests/heap_tests
+"HeapTest.StringStorage" start time: Mar 08 05:04 UTC
+Output:
+----------------------------------------------------------
+==493== Memcheck, a memory error detector
+==493== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==493== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==493== Command: /home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests --gtest_filter=HeapTest.StringStorage
+==493== 
+Running main() from /home/codio/googletest/googletest/src/gtest_main.cc
+Note: Google Test filter = HeapTest.StringStorage
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from HeapTest
+[ RUN      ] HeapTest.StringStorage
+[       OK ] HeapTest.StringStorage (36 ms)
+[----------] 1 test from HeapTest (46 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (99 ms total)
+[  PASSED  ] 1 test.
+==493== 
+==493== HEAP SUMMARY:
+==493==     in use at exit: 0 bytes in 0 blocks
+==493==   total heap usage: 471 allocs, 471 frees, 135,911 bytes allocated
+==493== 
+==493== All heap blocks were freed -- no leaks are possible
+==493== 
+==493== For counts of detected and suppressed errors, rerun with: -v
+==493== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   1.61 sec
+----------------------------------------------------------
+Test Passed.
+"HeapTest.StringStorage" end time: Mar 08 05:04 UTC
+"HeapTest.StringStorage" time elapsed: 00:00:01
+----------------------------------------------------------
+
+45/50 Testing: HeapTest.FiveElementPush_TrinaryHeap
+45/50 Test: HeapTest.FiveElementPush_TrinaryHeap
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "--error-exitcode=113" "/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests" "--gtest_filter=HeapTest.FiveElementPush_TrinaryHeap"
+Directory: /home/codio/workspace/hw3/hw3_tests/heap_tests
+"HeapTest.FiveElementPush_TrinaryHeap" start time: Mar 08 05:04 UTC
+Output:
+----------------------------------------------------------
+==494== Memcheck, a memory error detector
+==494== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==494== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==494== Command: /home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests --gtest_filter=HeapTest.FiveElementPush_TrinaryHeap
+==494== 
+Running main() from /home/codio/googletest/googletest/src/gtest_main.cc
+Note: Google Test filter = HeapTest.FiveElementPush_TrinaryHeap
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from HeapTest
+[ RUN      ] HeapTest.FiveElementPush_TrinaryHeap
+[       OK ] HeapTest.FiveElementPush_TrinaryHeap (39 ms)
+[----------] 1 test from HeapTest (49 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (103 ms total)
+[  PASSED  ] 1 test.
+==494== 
+==494== HEAP SUMMARY:
+==494==     in use at exit: 0 bytes in 0 blocks
+==494==   total heap usage: 472 allocs, 472 frees, 135,905 bytes allocated
+==494== 
+==494== All heap blocks were freed -- no leaks are possible
+==494== 
+==494== For counts of detected and suppressed errors, rerun with: -v
+==494== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   1.62 sec
+----------------------------------------------------------
+Test Passed.
+"HeapTest.FiveElementPush_TrinaryHeap" end time: Mar 08 05:04 UTC
+"HeapTest.FiveElementPush_TrinaryHeap" time elapsed: 00:00:01
+----------------------------------------------------------
+
+46/50 Testing: HeapTest.SixElementPush_QuaternaryHeap
+46/50 Test: HeapTest.SixElementPush_QuaternaryHeap
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "--error-exitcode=113" "/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests" "--gtest_filter=HeapTest.SixElementPush_QuaternaryHeap"
+Directory: /home/codio/workspace/hw3/hw3_tests/heap_tests
+"HeapTest.SixElementPush_QuaternaryHeap" start time: Mar 08 05:04 UTC
+Output:
+----------------------------------------------------------
+==495== Memcheck, a memory error detector
+==495== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==495== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==495== Command: /home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests --gtest_filter=HeapTest.SixElementPush_QuaternaryHeap
+==495== 
+Running main() from /home/codio/googletest/googletest/src/gtest_main.cc
+Note: Google Test filter = HeapTest.SixElementPush_QuaternaryHeap
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from HeapTest
+[ RUN      ] HeapTest.SixElementPush_QuaternaryHeap
+[       OK ] HeapTest.SixElementPush_QuaternaryHeap (41 ms)
+[----------] 1 test from HeapTest (52 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (107 ms total)
+[  PASSED  ] 1 test.
+==495== 
+==495== HEAP SUMMARY:
+==495==     in use at exit: 0 bytes in 0 blocks
+==495==   total heap usage: 472 allocs, 472 frees, 135,931 bytes allocated
+==495== 
+==495== All heap blocks were freed -- no leaks are possible
+==495== 
+==495== For counts of detected and suppressed errors, rerun with: -v
+==495== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   1.62 sec
+----------------------------------------------------------
+Test Passed.
+"HeapTest.SixElementPush_QuaternaryHeap" end time: Mar 08 05:04 UTC
+"HeapTest.SixElementPush_QuaternaryHeap" time elapsed: 00:00:01
+----------------------------------------------------------
+
+47/50 Testing: HeapStress.50x50RandomElements_BinaryHeap
+47/50 Test: HeapStress.50x50RandomElements_BinaryHeap
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "--error-exitcode=113" "/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests" "--gtest_filter=HeapStress.50x50RandomElements_BinaryHeap"
+Directory: /home/codio/workspace/hw3/hw3_tests/heap_tests
+"HeapStress.50x50RandomElements_BinaryHeap" start time: Mar 08 05:04 UTC
+Output:
+----------------------------------------------------------
+==496== Memcheck, a memory error detector
+==496== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==496== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==496== Command: /home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests --gtest_filter=HeapStress.50x50RandomElements_BinaryHeap
+==496== 
+Running main() from /home/codio/googletest/googletest/src/gtest_main.cc
+Note: Google Test filter = HeapStress.50x50RandomElements_BinaryHeap
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from HeapStress
+[ RUN      ] HeapStress.50x50RandomElements_BinaryHeap
+[       OK ] HeapStress.50x50RandomElements_BinaryHeap (224 ms)
+[----------] 1 test from HeapStress (233 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (287 ms total)
+[  PASSED  ] 1 test.
+==496== 
+==496== HEAP SUMMARY:
+==496==     in use at exit: 0 bytes in 0 blocks
+==496==   total heap usage: 969 allocs, 969 frees, 183,502 bytes allocated
+==496== 
+==496== All heap blocks were freed -- no leaks are possible
+==496== 
+==496== For counts of detected and suppressed errors, rerun with: -v
+==496== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   1.78 sec
+----------------------------------------------------------
+Test Passed.
+"HeapStress.50x50RandomElements_BinaryHeap" end time: Mar 08 05:04 UTC
+"HeapStress.50x50RandomElements_BinaryHeap" time elapsed: 00:00:01
+----------------------------------------------------------
+
+48/50 Testing: HeapStress.50x50RandomElements_QuaternaryHeap
+48/50 Test: HeapStress.50x50RandomElements_QuaternaryHeap
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "--error-exitcode=113" "/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests" "--gtest_filter=HeapStress.50x50RandomElements_QuaternaryHeap"
+Directory: /home/codio/workspace/hw3/hw3_tests/heap_tests
+"HeapStress.50x50RandomElements_QuaternaryHeap" start time: Mar 08 05:04 UTC
+Output:
+----------------------------------------------------------
+==497== Memcheck, a memory error detector
+==497== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==497== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==497== Command: /home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests --gtest_filter=HeapStress.50x50RandomElements_QuaternaryHeap
+==497== 
+Running main() from /home/codio/googletest/googletest/src/gtest_main.cc
+Note: Google Test filter = HeapStress.50x50RandomElements_QuaternaryHeap
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from HeapStress
+[ RUN      ] HeapStress.50x50RandomElements_QuaternaryHeap
+[       OK ] HeapStress.50x50RandomElements_QuaternaryHeap (223 ms)
+[----------] 1 test from HeapStress (234 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (290 ms total)
+[  PASSED  ] 1 test.
+==497== 
+==497== HEAP SUMMARY:
+==497==     in use at exit: 0 bytes in 0 blocks
+==497==   total heap usage: 969 allocs, 969 frees, 183,554 bytes allocated
+==497== 
+==497== All heap blocks were freed -- no leaks are possible
+==497== 
+==497== For counts of detected and suppressed errors, rerun with: -v
+==497== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   1.88 sec
+----------------------------------------------------------
+Test Passed.
+"HeapStress.50x50RandomElements_QuaternaryHeap" end time: Mar 08 05:04 UTC
+"HeapStress.50x50RandomElements_QuaternaryHeap" time elapsed: 00:00:01
+----------------------------------------------------------
+
+49/50 Testing: HeapStress.50x50RandomElements_DodecenaryHeap
+49/50 Test: HeapStress.50x50RandomElements_DodecenaryHeap
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "--error-exitcode=113" "/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests" "--gtest_filter=HeapStress.50x50RandomElements_DodecenaryHeap"
+Directory: /home/codio/workspace/hw3/hw3_tests/heap_tests
+"HeapStress.50x50RandomElements_DodecenaryHeap" start time: Mar 08 05:04 UTC
+Output:
+----------------------------------------------------------
+==498== Memcheck, a memory error detector
+==498== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==498== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==498== Command: /home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests --gtest_filter=HeapStress.50x50RandomElements_DodecenaryHeap
+==498== 
+Running main() from /home/codio/googletest/googletest/src/gtest_main.cc
+Note: Google Test filter = HeapStress.50x50RandomElements_DodecenaryHeap
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from HeapStress
+[ RUN      ] HeapStress.50x50RandomElements_DodecenaryHeap
+[       OK ] HeapStress.50x50RandomElements_DodecenaryHeap (214 ms)
+[----------] 1 test from HeapStress (224 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (277 ms total)
+[  PASSED  ] 1 test.
+==498== 
+==498== HEAP SUMMARY:
+==498==     in use at exit: 0 bytes in 0 blocks
+==498==   total heap usage: 969 allocs, 969 frees, 183,554 bytes allocated
+==498== 
+==498== All heap blocks were freed -- no leaks are possible
+==498== 
+==498== For counts of detected and suppressed errors, rerun with: -v
+==498== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   1.77 sec
+----------------------------------------------------------
+Test Passed.
+"HeapStress.50x50RandomElements_DodecenaryHeap" end time: Mar 08 05:04 UTC
+"HeapStress.50x50RandomElements_DodecenaryHeap" time elapsed: 00:00:01
+----------------------------------------------------------
+
+50/50 Testing: HeapStress.2x2000RandomElements_Binary
+50/50 Test: HeapStress.2x2000RandomElements_Binary
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "--error-exitcode=113" "/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests" "--gtest_filter=HeapStress.2x2000RandomElements_Binary"
+Directory: /home/codio/workspace/hw3/hw3_tests/heap_tests
+"HeapStress.2x2000RandomElements_Binary" start time: Mar 08 05:04 UTC
+Output:
+----------------------------------------------------------
+==499== Memcheck, a memory error detector
+==499== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==499== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==499== Command: /home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests --gtest_filter=HeapStress.2x2000RandomElements_Binary
+==499== 
+Running main() from /home/codio/googletest/googletest/src/gtest_main.cc
+Note: Google Test filter = HeapStress.2x2000RandomElements_Binary
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from HeapStress
+[ RUN      ] HeapStress.2x2000RandomElements_Binary
+[       OK ] HeapStress.2x2000RandomElements_Binary (297 ms)
+[----------] 1 test from HeapStress (307 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (360 ms total)
+[  PASSED  ] 1 test.
+==499== 
+==499== HEAP SUMMARY:
+==499==     in use at exit: 0 bytes in 0 blocks
+==499==   total heap usage: 499 allocs, 499 frees, 200,711 bytes allocated
+==499== 
+==499== All heap blocks were freed -- no leaks are possible
+==499== 
+==499== For counts of detected and suppressed errors, rerun with: -v
+==499== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   1.86 sec
+----------------------------------------------------------
+Test Passed.
+"HeapStress.2x2000RandomElements_Binary" end time: Mar 08 05:04 UTC
+"HeapStress.2x2000RandomElements_Binary" time elapsed: 00:00:01
+----------------------------------------------------------
+
+End testing: Mar 08 05:04 UTC

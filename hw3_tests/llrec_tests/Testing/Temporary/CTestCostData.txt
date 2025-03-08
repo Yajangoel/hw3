@@ -1,0 +1,24 @@
+Pivot.Empty 1 1.80962
+Pivot.Size1SmallEmpty 1 1.57999
+Pivot.Size1LargeEmpty 1 1.64587
+Pivot.Size2SmallLarge 1 1.59817
+Pivot.Size2LargeSmall 1 1.63924
+Pivot.Size3LargeSmallLarge 1 1.63615
+Pivot.Size3SmallLargeSmall 1 1.63128
+Pivot.Size3LargeLargeSmall 1 1.59071
+Pivot.Size6SmallThenLarge 1 1.68843
+Pivot.Size6LargeThenSmall 1 1.64394
+Pivot.Nominal 1 1.64852
+Pivot.SameValues 1 1.63978
+Pivot.NoCopySameNodeCheck 1 1.60893
+Filter.EmptyList 1 1.61245
+Filter.Size1_F 1 1.59302
+Filter.Size1_nF 1 1.6675
+Filter.Size2_F_nF 1 1.59092
+Filter.Size2_nF_F 1 1.66867
+Filter.Size3_nF_F_nF 1 1.71087
+Filter.Size3_F_nF_F 1 1.60404
+Filter.SameNodeCheck 1 1.60393
+Filter.MultipleCalls 1 1.63005
+Filter.CompareWithLlrec 1 1.59603
+---
